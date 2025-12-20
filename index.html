@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shradha Pateriya | Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-poppins bg-gray-50 text-gray-800">
+    <custom-navbar></custom-navbar>
+    
+    <main class="container mx-auto px-4 py-12">
+        <!-- Hero Section -->
+        <section class="flex flex-col md:flex-row items-center gap-12 mb-20">
+            <div class="md:w-1/2">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Hi, I'm <span class="text-indigo-600">Shradha Pateriya</span></h1>
+                <h2 class="text-2xl md:text-3xl font-semibold mb-6">Web & Python Developer</h2>
+                <p class="text-lg mb-8 text-gray-600">A motivated developer passionate about creating beautiful, functional web experiences with strong fundamentals in both frontend and backend technologies.</p>
+                <div class="flex gap-4">
+                    <a href="#contact" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition">Contact Me</a>
+                    <a href="#projects" class="border border-indigo-600 text-indigo-600 hover:bg-indigo-50 px-6 py-3 rounded-lg font-medium transition">View Projects</a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <img src="http://static.photos/technology/640x360/42" alt="Developer working" class="rounded-xl shadow-xl">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">About Me</h2>
+            <div class="bg-white p-8 rounded-xl shadow-md max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">🎯 Career Objective</h3>
+                        <p class="text-gray-600 mb-6">A motivated and detail-oriented Web Developer with strong fundamentals in frontend and backend technologies. Seeking an opportunity to apply my technical skills in real-world projects, contribute to organizational growth, and continuously learn modern web technologies.</p>
+                        
+                        <h3 class="text-xl font-semibold mb-4">🤝 Soft Skills</h3>
+                        <ul class="grid grid-cols-2 gap-2 text-gray-600">
+                            <li class="flex items-center"><i data-feather="check" class="mr-2 text-indigo-600"></i> Problem Solving</li>
+                            <li class="flex items-center"><i data-feather="check" class="mr-2 text-indigo-600"></i> Quick Learner</li>
+                            <li class="flex items-center"><i data-feather="check" class="mr-2 text-indigo-600"></i> Team Collaboration</li>
+                            <li class="flex items-center"><i data-feather="check" class="mr-2 text-indigo-600"></i> Time Management</li>
+                            <li class="flex items-center"><i data-feather="check" class="mr-2 text-indigo-600"></i> Good Communication</li>
+                            <li class="flex items-center"><i data-feather="check" class="mr-2 text-indigo-600"></i> Adaptability</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">🛠️ Technical Skills</h3>
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-medium mb-1">Frontend</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">HTML5</span>
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">CSS3</span>
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-medium mb-1">Backend</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Python</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-medium mb-1">Database</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">SQL</span>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-medium mb-1">Other Skills</h4>
+                                <div class="flex flex-wrap gap-2">
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Responsive Design</span>
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">GitHub</span>
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">API Integration</span>
+                                    <span class="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">WordPress</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">My Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/health/640x360/1" alt="Health Calculator" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2"><Tic Tac Toe Game></h3>
+                        <p class="text-gray-600 mb-4">A classic Tic Tac Toe game developed with HTML, CSS, and JavaScript featuring an interactive UI and real-time win detection.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">JavaScript</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="  https://pateriyashraddha78-netizen.github.io/Tic-Tac-Toe/" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href=" https://pateriyashraddha78-netizen.github.io/Tic-Tac-Toe/" class="text-gray-600 hover:text-gray-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/office/640x360/2" alt="Job Portal" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">JobHunt – Job Portal</h3>
+                        <p class="text-gray-600 mb-4">A job search platform where users can browse and apply for jobs with filtering and responsive UI.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">JavaScript</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">Python</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://pateriyashraddha78-netizen.github.io/jobhunt/" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="https://github.com/pateriyashraddha78/jobhunt" class="text-gray-600 hover:text-gray-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/entertainment/640x360/3" alt="Movie Recommendation" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Movie Recommendation System</h3>
+                        <p class="text-gray-600 mb-4">A Python-based application that recommends movies based on user preferences using data analysis.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">Python</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://pateriyashraddha78-netizen.github.io/movieRecommendation/" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="https://github.com/pateriyashraddha78/movieRecommendation" class="text-gray-600 hover:text-gray-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/music/640x360/4" alt="Music Player" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Music Player Web App</h3>
+                        <p class="text-gray-600 mb-4">A responsive web-based music player with play, pause, next, and previous functionality.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">JavaScript</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://pateriyashraddha78-netizen.github.io/musicplayer/" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="https://pateriyashraddha78-netizen.github.io/musicplayer/" class="text-gray-600 hover:text-gray-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/retail/640x360/5" alt="E-Commerce" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">E-Commerce Website</h3>
+                        <p class="text-gray-600 mb-4">A dynamic shopping website with product listings, cart functionality, and responsive design.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">HTML</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">CSS</span>
+                            <span class="bg-gray-100 text-gray-800 px-2 py-1 rounded-full text-xs">JavaScript</span>
+                        </div>
+                        <div class="flex gap-3">
+                            <a href="https://pateriyashraddha78-netizen.github.io/LuxeHarmony.com/" class="text-indigo-600 hover:text-indigo-800 font-medium">View Demo</a>
+                            <a href="https://pateriyashraddha78-netizen.github.io/LuxeHarmony.com/" class="text-gray-600 hover:text-gray-800 font-medium">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">Education</h2>
+            <div class="bg-white p-8 rounded-xl shadow-md max-w-4xl mx-auto">
+                <div class="space-y-8">
+                    <div class="border-l-4 border-indigo-600 pl-6">
+                        <h3 class="text-xl font-bold mb-1">Master of Computer Applications (MCA)</h3>
+                        <p class="text-gray-600 mb-1">University Institute of Technology, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal</p>
+                        <p class="text-sm text-gray-500">2021 - 2023</p>
+                    </div>
+                    <div class="border-l-4 border-indigo-600 pl-6">
+                        <h3 class="text-xl font-bold mb-1">Bachelor of Science (B.Sc)</h3>
+                        <p class="text-gray-600 mb-1">Mahatma Gandhi Chitrakoot Vishwavidyalaya, Tikamgarh</p>
+                        <p class="text-sm text-gray-500">2018 - 2021</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">Certifications</h2>
+            <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="award" class="text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">Python Programming</h3>
+                    <p class="text-gray-600">Certified in Python programming fundamentals and advanced concepts.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="database" class="text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">SQL Database</h3>
+                    <p class="text-gray-600">Certified in database management and SQL query optimization.</p>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition">
+                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="code" class="text-indigo-600"></i>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2">HTML & CSS Web Development</h3>
+                    <p class="text-gray-600">Certified in modern web development with HTML5 and CSS3.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-20">
+            <h2 class="text-3xl font-bold mb-8 text-center">Get In Touch</h2>
+            <div class="bg-white p-8 rounded-xl shadow-md max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center">
+                                <div class="bg-indigo-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                    <i data-feather="mail" class="text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-gray-500 text-sm">Email</p>
+                                    <p class="font-medium">shraddhapateriya28@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-indigo-100 w-10 h-10 rounded-full flex items-center justify-center mr-4">
+                                    <i data-feather="phone" class="text-indigo-600"></i>
+                                </div>
+                                <div>
+                                    <p class="text-gray-500 text-sm">Phone</p>
+                                    <p class="font-medium">+91 6265236483</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <form class="space-y-4">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                            </div>
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500">
+                            </div>
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"></textarea>
+                            </div>
+                            <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-lg font-medium transition w-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="script.js"></script>
+    <script>feather.replace();</script>
+</body>
+</html>
